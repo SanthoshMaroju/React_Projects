@@ -1,0 +1,10 @@
+/* Add this CSS to your stylesheet or in a style block in your component */
+/* @keyframes spin-vertical {
+    0% { transform: rotateX(0deg); }
+    100% { transform: rotateX(360deg); }
+} */
+
+.spin {
+    animation: spin-vertical 0.5s ease-in-out; /* 1 second for a smoother spin */
+    transform-origin: center; /* Rotate around the center */
+}
